@@ -1,5 +1,7 @@
 # Pokedex ReactJS
 
+##Acessar https://react-pokedex2022.netlify.app/
+
 
 ###  📱 Layout
 
@@ -18,6 +20,7 @@
 -  React-Hot-Toast (https://react-hot-toast.com/docs) Utilizada para às notificações como ao apertar no coração para salvar Pokemon e outras ações.
 -  JavaScript (https://tableless.github.io/iniciantes/manual/js/)
 -  API https://pokeapi.co/
+-  Netlify (https://www.netlify.com/) Hospedagem.
 
 
 ## 💻 Projeto
