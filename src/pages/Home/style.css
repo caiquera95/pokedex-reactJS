@@ -1,0 +1,136 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    width: 80%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 70px;
+}
+
+.boxContainer  h1 {
+    margin-top: 70px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.inputBuscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.inputBuscar input {
+    font-family: 'Poppins';
+    font-size: 18px;
+    border-style: none;
+    background-color: rgb(125, 125, 125)7f7;
+    padding: 8px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.inputBuscar span {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.btn button {
+    font-family: 'Poppins';
+    font-size: 18px;
+    border-style: none;
+    background-color: rgb(125, 125, 125)7f7;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.btn button:hover {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: rgb(25, 73, 176);
+    background-color: #f7f7f7;
+    border-style: none;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 425px){
+
+    .boxContainer  h1 {
+        margin-top: 40px;
+        font-size: 1.2em;
+    }
+    .btn button {
+        border-style: none;
+        padding: 8px;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 375px){
+    .inputBuscar {
+        margin-top: 30px;
+    }
+    
+    .inputBuscar input {
+        font-size: 1em;
+    }
+
+    .btn button {
+        padding: 6px;
+        font-size: .9em;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    .inputBuscar {
+        margin-top: 30px;
+    }
+    
+    .inputBuscar input {
+        font-size: .9em;
+    }
+
+    .btn button {
+        padding: 6px;
+        font-size: .9em;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .inputBuscar {
+        margin-top: 30px;
+    }
+    
+    .inputBuscar input {
+        font-size: .8em;
+    }
+
+    .btn button {
+        border-style: none;
+        padding: 6px;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        font-size: .8em;
+        margin-bottom: 14px;
+    }
+}

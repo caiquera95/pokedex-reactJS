@@ -1,0 +1,401 @@
+.boxFav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2e2e2e;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid ;
+    width: 40%;
+    
+}
+
+.meusPokemons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meusPokemons h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 30px;
+}
+
+.boxFav ul {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.meusPokemons p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.meusPokemons img {
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.meusPokemons li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.meusPokemons span {
+    font: 20px;
+    color: rgb(162, 162, 162);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btnDelete{
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    color: #EF5350;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Nunito",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  
+  .btnDelete:hover  {
+      color: #c23d3a;
+      cursor: pointer
+  }
+  
+
+@media (max-width: 1280px){
+    .boxFav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2e2e2e;
+        color: #fff;
+        border-radius: 10px;
+        border: 2px solid ;
+        width: 80%;
+    }
+    
+    .meusPokemons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .meusPokemons h1 {
+        font-size: 1.8em;
+        color: #fff;
+        margin: 30px;
+    }
+    
+    .boxFav ul {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        color: rgb(130, 130, 130);
+        font-size: 1.6;
+    }
+    
+    
+    .meusPokemons img {
+        margin: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .meusPokemons p {
+        margin: 18px;
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+    }
+    
+    
+    .meusPokemons li {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1.4em;
+        font-weight: 800;
+    }
+    
+    .meusPokemons span {
+        color: rgb(109, 109, 109);
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btnDelete{
+        margin-left: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:0;
+        color: #EF5350;
+        background: transparent;
+        font-size: 1em;
+        font-weight: 700;
+        font-family: "Nunito",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      
+      .btnDelete:hover {
+          color: #c23d3a;
+          cursor: pointer
+      }
+      
+      .btnDelete svg{
+        font-size: 18px;
+        margin-left: 10px;
+      }
+}
+
+@media (max-width: 768px){
+        .boxFav {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+        }
+        
+        .meusPokemons h1 {
+            font-size: 1.3em;
+            color: #fff;
+            margin: 30px;
+        }
+        
+        .boxFav ul {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            list-style: none;
+            color: rgb(130, 130, 130);
+            font-size: 1.4;
+        }
+        
+        .meusPokemons img {
+            margin: 10px;
+            width: 70px;
+            height: 70px;
+        }
+
+        .meusPokemons p {
+            margin: 18px;
+            color: rgb(255, 255, 255);
+            font-size: 1.1em;
+        }
+        
+        .meusPokemons li {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            color: #fff;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 1.2em;
+            font-weight: 800;
+        }
+        
+        .meusPokemons span {
+            color: rgb(109, 109, 109);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .btnDelete{
+            margin-left: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border:0;
+            color: #EF5350;
+            background: transparent;
+            font-size: 1em;
+            font-weight: 700;
+            font-family: "Nunito",
+              "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+              sans-serif;
+          }
+          
+          .btnDelete:hover {
+              color: #c23d3a;
+              cursor: pointer
+          }
+          
+          .btnDelete svg{
+            font-size: 18px;
+            margin-left: 10px;
+          }
+}
+
+@media (max-width: 375px){
+    .boxFav {
+        width: 90%;
+    }
+    
+    .meusPokemons h1 {
+        font-size: 1em;
+        color: #fff;
+        margin: 20px;
+    }
+    
+    .boxFav ul {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    
+    .meusPokemons p {
+        margin: 0px;
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+    }
+    
+    .meusPokemons img {
+        margin-right: 4px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .meusPokemons li {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: .8em;
+        font-weight: 800;
+    }
+    
+    .meusPokemons span {
+        font: .8em;
+        color: rgb(162, 162, 162);
+        margin-right: 2px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btnDelete{
+        padding-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:0;
+        color: #EF5350;
+        background: transparent;
+        font-size: .8em;
+        font-weight: 700;
+        font-family: "Nunito",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      
+}
+
+@media (max-width: 320px){
+    .boxFav {
+      
+        width: 90%;
+    }
+    
+    .meusPokemons h1 {
+        font-size: 1em;
+        color: #fff;
+        margin: 20px;
+    }
+    
+    .boxFav ul {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    
+    .meusPokemons p {
+        margin: 0px;
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+    }
+    
+    .meusPokemons img {
+        margin-right: 2px;
+        width: 34px;
+        height: 34px;
+    }
+    
+    .meusPokemons li {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: .7em;
+        font-weight: 800;
+    }
+    
+    .meusPokemons span {
+        font: .8em;
+        color: rgb(162, 162, 162);
+        margin-right: 2px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btnDelete{
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:0;
+        color: #EF5350;
+        background: transparent;
+        font-size: .8em;
+        font-weight: 700;
+        font-family: "Nunito",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      
+      .btnDelete:hover  {
+          color: #c23d3a;
+          cursor: pointer
+      }
+}
